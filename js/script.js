@@ -16,10 +16,7 @@ function enterClicked() {
   if ((age >= 12 && age <= 21) || (day=="Tuesday" || day=="Thursday")) {
     document.getElementById("price").innerHTML = "You get the student discount"
   }  else {
-    document.getElementById("price").innerHTML = "You need to pat regualer price"
+    document.getElementById("price").innerHTML = "You need to pay regualer price"
 }
-
-  // output
-  document.getElementById("address").innerHTML =
-    "You live on: " + street_name + ", house " + street_number + "."
+  
 }
