@@ -17,7 +17,6 @@ function enterClicked() {
     document.getElementById("price").innerHTML = "You get the student discount"
   }  else {
     document.getElementById("price").innerHTML = "You need to pat regualer price"
-  
 }
 
   // output
